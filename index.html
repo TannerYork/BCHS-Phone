@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>BC Phone Directory</title>
+        <link href="https://fonts.googleapis.com/css?family=Enriqueta&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="./idex.css">
+    </head>
+    <body>
+        <div class="heading">
+            <img class="img" src='./we are bc 1 burgundy filled white font.png' alt="logo.jpg" />
+        </div>
+        <div class="text">
+            Barren County Schools Phone Directory
+        </div>
+        <form class="search">
+            <div class="search-values">
+                <select class="dropdown">
+                    <option value="none-selected">Search By School</option>
+                    <option value="North Jackson">North Jackson</option>
+                </select>
+                <input class="input" type="text" placeholder="Search By Last Name:"/>
+            </div>
+            <div class="submit">
+                <input class="button" type="submit"/>
+            </div>
+        </form>
+
+        <table class="table" style="display: none"></table>
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>
